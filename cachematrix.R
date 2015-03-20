@@ -27,11 +27,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
   
-  ## Check whether we already have the inverted matrix.
+  ## Check whether we already have a freshly inverted matrix ready.
   
   inv = x$getinv()
   
-  ## If we do not have it, retrieve it from storage.
+  ## If we do not yet have the inverted matrix, retrieve it from storage.
   
   if (!is.null(inv)){
     message("fetching cached matrix...")
