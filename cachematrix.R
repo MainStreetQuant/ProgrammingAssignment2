@@ -1,5 +1,6 @@
 ## This file is my response to Week 3 
 ## Programming Assignment 2
+## MainStreetQuant
 
 ## This function is intended to cache the matrix.
 
